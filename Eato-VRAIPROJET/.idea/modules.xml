@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Eato.iml" filepath="$PROJECT_DIR$/.idea/Eato.iml" />
+      <module fileurl="file:///Applications/MAMP/htdocs/projetannuaire/.idea/projetannuaire.iml" filepath="/Applications/MAMP/htdocs/projetannuaire/.idea/projetannuaire.iml" />
+    </modules>
+  </component>
+</project>
