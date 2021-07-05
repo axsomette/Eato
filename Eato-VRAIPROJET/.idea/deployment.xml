@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Bluemooring">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Castel">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Cobra">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Dodo-Lodge">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Gruissan">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Luxury">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Luxury-Coaching">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Trius-Safety">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="bluemooring">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="devBM">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gineste">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gruissan">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="gtlwork">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hdlm">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hotel de la mer">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ik">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="portfolio">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="premiumpony">
+        <serverdata>
+          <mappings>
+            <mapping local="/Applications/MAMP/htdocs/projetannuaire" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
