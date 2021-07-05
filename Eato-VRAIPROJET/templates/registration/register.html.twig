@@ -1,24 +1,50 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Register{% endblock %}
+{% block title %}Inscription{% endblock %}
 
 {% block body %}
     {#{% for flashError in app.flashes('verify_email_error') %}
         <div class="alert alert-danger" role="alert">{{ flashError }}</div>
     {% endfor %}#}
 
-    <h1>Register</h1>
+    <h1 style="text-align: center; margin-top: 90px">inscription</h1>
+    <div class="container">
 
-    {{ form_start(registrationForm) }}
-        {{ form_row(registrationForm.email) }}
-        {{ form_row(registrationForm.name) }}
-        {{ form_row(registrationForm.lastname) }}
-        {{ form_row(registrationForm.password.first) }}
-        {{ form_row(registrationForm.password.second) }}
-        {{ form_row(registrationForm.address) }}
-        {{ form_row(registrationForm.city) }}
-        {{ form_row(registrationForm.postal_code) }}
-        {{ form_row(registrationForm.tel) }}
-        {{ form_row(registrationForm.Enregistrer) }}
-    {{ form_end(registrationForm) }}
+
+
+
+
+        <div class="fond connexion inscription">
+            <img class="" src="{{ 'img/fond.png' }}" alt="Snow" style="width:100%; height: 1150px;">
+
+
+            <div class="taille centered taille-insc">
+
+                {{ form_start(registrationForm) }}
+                {{ form_row(registrationForm.email) }}
+                {{ form_row(registrationForm.name) }}
+                {{ form_row(registrationForm.lastname) }}
+                {{ form_row(registrationForm.password.first) }}
+                {{ form_row(registrationForm.password.second) }}
+                {{ form_row(registrationForm.address) }}
+                {{ form_row(registrationForm.city) }}
+                {{ form_row(registrationForm.postal_code) }}
+                {{ form_row(registrationForm.inscription) }}
+                {{ form_end(registrationForm) }}
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
 {% endblock %}

@@ -11,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
  * @ORM\Table(name="`user`")
- * @UniqueEntity(fields={"email"}, message="There is already an account with this email")
+ * @UniqueEntity(fields={"email"}, message="Un compte avec cette adresse email est déjà utilisée")
  */
 class User implements UserInterface
 {
@@ -188,13 +188,13 @@ class User implements UserInterface
     //used in connexion case for set the user infos in BDD !!
     public function setRoles($roles): self
     {
-        $this->roles = $roles[0];
+        $this->roles = 'ROLE_USER';
         return $this;
     }
 
-   /* public function getRoles()
-    {
-    }*/
+    /* public function getRoles()
+     {
+     }*/
 
     public function getSalt()
     {

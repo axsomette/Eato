@@ -1,0 +1,41 @@
+{% extends 'admin-base.html.twig' %}
+
+{% block title %}
+
+{% if user.id != null %}
+Edit User
+{% else %}
+New User
+{% endif %}
+
+{% endblock %}
+
+{% block body %}
+
+<div id="center" class="col-8 offset-md-1 mb-5">
+
+	<a class="btn btn-info" href="/administration">Retour</a>
+
+	<h1 class="mt-3 mb-3">
+		{% if user.id %}
+		Modifier {{ user.name }} {{ user.lastname }}
+		{% else %}
+		Créer un nouvel utilisateur
+		{% endif %}
+	</h1>
+
+	<div class="row">
+
+		<div class="col-md-9 mt-2 p-0 offset-md-1">
+			{{ form_start(form) }}
+
+			{% if user.id %}
+			{{ form_widget(form.password, {'attr': {'class': 'd-none'}}) }}
+			{% endif %}
+
+			{{ form_end(form) }}
+		</div>
+
+	</div>
+</div>
+{% endblock %}

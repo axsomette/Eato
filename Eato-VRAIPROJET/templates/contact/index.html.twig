@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+        <!-- baner -->
+        <section class="header">
+            <img src="eato.png" alt="" srcset="">
+            <h1>Nous contacter</h1>
+        </section>
+
+
+        <div class="row">
+            <div class="col-md-6">
+
+
+                <div class="fond connexion">
+                    <img class="" src="{{ 'img/fond.png' }}" alt="Snow" style="width:100%;">
+
+
+                    <div class="taille centered">
+
+                        <div class="avatar">
+                            <h2 class="bienvenue"> Contactez nous </h2>
+
+                        </div>
+
+
+                        <form>
+                            <!-- Name input -->
+                            <div class="form-outline mb-1">
+                                <input type="text" id="form4Example1" class="form-control" />
+                                <label class="form-label" for="form4Example1">Nom</label>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-1">
+                                <input type="email" id="form4Example2" class="form-control" />
+                                <label class="form-label" for="form4Example2">Email </label>
+                            </div>
+                            <!-- Email input -->
+
+                            <!-- Message input -->
+                            <div class="form-outline mb-1">
+                                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                                <label class="form-label" for="form4Example3">Message</label>
+                            </div>
+
+
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Envoyer</button>
+                        </form>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="adress col-md-6">
+
+                <img src="{{ 'img/lieu.png' }}" alt="" srcset="">
+                <p> Adresse</p>
+                <p> +33 58.10.09.92<br>
+                    Carcassonne 11000</p>
+                <img src="{{ 'img/social.png' }}" alt="" srcset="">
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+{% endblock %}

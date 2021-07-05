@@ -20,7 +20,9 @@ class RegistrationFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('email',EmailType::class)
+            ->add('email',EmailType::class,[
+                'invalid_message' => "l'email est déja utilisée"
+            ])
             ->add('name')
             ->add('lastname')
             ->add('password', RepeatedType::class, [
@@ -46,25 +48,9 @@ class RegistrationFormType extends AbstractType
             ->add('address')
             ->add('city')
             ->add('postal_code')
-            ->add('tel', PasswordType::class, [
-                // instead of being set onto the object directly,
-                // this is read and encoded in the controller
-                'mapped' => false,
-                'constraints' => [
-                    new NotBlank([
-                        'message' => "Rentrez un mot de passe s'il vous plait",
-                    ]),
-                    new Length([
-                        'min' => 6,
-                        'minMessage' => 'Votre mot de passe doit faire minimum {{ limit }} caratères',
-                        // max length allowed by Symfony for security reasons
-                        'max' => 4096,
-                    ]),
-                ],
-            ])
-            ->add('Enregistrer', SubmitType::class, array(
+            ->add("inscription", SubmitType::class, array(
                 'attr' => [
-                    'class' => 'btn btn-success mt-2'
+                    'class' => 'btn btn-success mt-2 log-btn'
                 ]
             ));
 

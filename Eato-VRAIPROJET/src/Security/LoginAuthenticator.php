@@ -97,7 +97,7 @@ class LoginAuthenticator extends AbstractFormLoginAuthenticator implements Passw
             return new RedirectResponse($targetPath);
         }
         if ($token->getUser()->getRoles(["ROLE_ADMIN"]) ){
-            return new RedirectResponse($this->urlGenerator->generate('admin'));
+            return new RedirectResponse('/administration');
 
         }
         else{

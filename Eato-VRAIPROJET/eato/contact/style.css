@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+    
+    /*  banner */
+    
+    h1 {
+      font-size: 2.8em;
+      padding: 10px 0;
+      font-weight: 800;
+    }
+    
+    
+    
+    .header {
+      width: 100%;
+      padding:60px 0;
+      text-align: center;
+      background-image: url('./banner.png');
+      color: white;
+    }
+    
+    
+    .btn-bgstroke {
+      font-size: 20px;
+      display: inline-block;
+      border: 1px solid white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 300;
+      margin-top: 30px; 
+    }
+
+    /*contacter*/
+    .fond {
+        margin-top: 15%;
+        width: 90%;
+        position: relative;
+        text-align: center;
+        color: black;
+      }
+      
+    
+      
+      .centered {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+    .taille{
+    width: 60%;
+    }
+    
+    
+      /*avatar*/
+    
+    
+      .form{
+          margin-top: 5%;
+      }
+    
+      .bienvenu{
+          color: black;
+    font-size: 28px;  
+margin-top: 20%;
+}
+
+
+
+/* adress */
+.adress{
+    text-align: center;
+    margin-top: 10%;
+}
